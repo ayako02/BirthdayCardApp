@@ -6,24 +6,31 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.birthdaycardapp.MainActivity">
 
+    <ImageView
+        android:id="@+id/image-bg"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:padding="15dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
         android:text="Happy Birthday, Kobayashi!"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:padding="15dp"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:text="From, Tohru"/>
-
-    <ImageView
-        android:id="@+id/image-bg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidparty"/>
 
 </RelativeLayout>
